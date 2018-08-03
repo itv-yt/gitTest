@@ -22,6 +22,7 @@ public class MyView extends View {
         canvas.drawColor(getResources().getColor(android.R.color.holo_orange_light));
         canvas.drawCircle(200, 200, 100, mPaint);
         canvas.drawLine(20, 300, 700, 605, mPaint);
+        canvas.drawCircle(600, 700, 150, mPaint);
     }
 
     private void init() {
